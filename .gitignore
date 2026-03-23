@@ -1,0 +1,58 @@
+# ── Data ──────────────────────────────────────────────────────────────────────
+# Raw datasets are large and reproducible via the notebook download cells.
+# Never commit them.
+data/raw/
+data/processed/
+
+# ── Model weights ─────────────────────────────────────────────────────────────
+# Pickle files and HuggingFace model directories can be hundreds of MB.
+outputs/models/
+*.pkl
+*.pt
+*.bin
+*.safetensors
+
+# ── Notebook checkpoints ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Colab / HuggingFace cache ─────────────────────────────────────────────────
+distilbert-sentiment/
+distilbert-sentiment-final/
+sentiment140/
+sentiment140.zip
+*.zip
+
+# ── What IS committed ─────────────────────────────────────────────────────────
+# notebooks/sentiment_analysis.ipynb   — full reproducible notebook
+# outputs/figures/                     — generated plots (small PNGs)
+# outputs/results/                     — CSVs with metrics and error examples
+# src/                                 — utility scripts
+# requirements.txt                     — pinned dependencies
+# README.md                            — project overview
