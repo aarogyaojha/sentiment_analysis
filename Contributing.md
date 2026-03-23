@@ -11,11 +11,11 @@ For small fixes (typos, doc improvements, bug fixes) just open a PR directly.
 ## Setup
 
 ```bash
-git clone https://github.com/aarogyaojha/sentiment-analysis.git
-cd sentiment-analysis
+git clone https://github.com/aarogyaojha/sentiment_analysis.git
+cd sentiment_analysis
 
-conda create -n sentiment-analysis python=3.10
-conda activate sentiment-analysis
+conda create -n sentiment_analysis python=3.10
+conda activate sentiment_analysis
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install transformers==4.40.0 accelerate==0.30.0
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ```bash
 # 1. Fork the repo on GitHub, then clone your fork
-git clone https://github.com/YOUR_USERNAME/sentiment-analysis.git
+git clone https://github.com/YOUR_USERNAME/sentiment_analysis.git
 
 # 2. Create a branch
 git checkout -b feature/your-feature-name

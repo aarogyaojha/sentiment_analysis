@@ -3,7 +3,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
-[![GitHub](https://img.shields.io/badge/GitHub-aarogyaojha-black?logo=github)](https://github.com/aarogyaojha/sentiment-analysis)
+[![GitHub](https://img.shields.io/badge/GitHub-aarogyaojha-black?logo=github)](https://github.com/aarogyaojha/sentiment_analysis)
 
 Comparing a classical TF-IDF + Logistic Regression pipeline against fine-tuned DistilBERT on binary sentiment classification — trained on Twitter (Sentiment140) and evaluated both in-domain and out-of-domain on IMDB movie reviews without any retraining.
 
@@ -38,7 +38,7 @@ The main finding: DistilBERT outperforms TF-IDF+LR by ~7 points on Twitter, but 
 ## Project structure
 
 ```
-sentiment-analysis/
+sentiment_analysis/
 │
 ├── data/
 │   ├── raw/
@@ -126,8 +126,8 @@ Tested on Windows 11, NVIDIA RTX 3050 Laptop GPU.
 
 ```bash
 # 1. Create environment
-conda create -n sentiment-analysis python=3.10
-conda activate sentiment-analysis
+conda create -n sentiment_analysis python=3.10
+conda activate sentiment_analysis
 
 # 2. Check your CUDA version
 nvidia-smi   # note the CUDA version in the top right
@@ -146,13 +146,13 @@ pip install accelerate==0.30.0
 pip install -r requirements.txt
 
 # 6. Register kernel so Jupyter sees the environment
-python -m ipykernel install --user --name sentiment-analysis --display-name "sentiment-analysis"
+python -m ipykernel install --user --name sentiment_analysis --display-name "sentiment_analysis"
 
 # 7. Launch
 jupyter notebook notebooks/sentiment_analysis.ipynb
 ```
 
-In Jupyter, check the kernel shows **sentiment-analysis** in the top right. If not: Kernel → Change kernel → sentiment-analysis. Then Cell → Run All.
+In Jupyter, check the kernel shows **sentiment_analysis** in the top right. If not: Kernel → Change kernel → sentiment_analysis. Then Cell → Run All.
 
 > **Note on Windows:** if you hit `ImportError: Using the Trainer with PyTorch requires accelerate>=1.1.0` even after installing accelerate, run:
 > ```bash
@@ -167,10 +167,10 @@ In Jupyter, check the kernel shows **sentiment-analysis** in the top right. If n
 DistilBERT training on CPU takes 3–6 hours. For TF-IDF results only:
 
 ```bash
-conda create -n sentiment-analysis python=3.10
-conda activate sentiment-analysis
+conda create -n sentiment_analysis python=3.10
+conda activate sentiment_analysis
 pip install -r requirements.txt
-python -m ipykernel install --user --name sentiment-analysis --display-name "sentiment-analysis"
+python -m ipykernel install --user --name sentiment_analysis --display-name "sentiment_analysis"
 jupyter notebook notebooks/sentiment_analysis.ipynb
 ```
 
@@ -260,7 +260,7 @@ The notebook defaults to 200K Sentiment140 / 50K DistilBERT for fast iteration. 
 
 Contributions are welcome. Please open an issue before starting large changes.
 
-1. Fork — [github.com/aarogyaojha/sentiment-analysis](https://github.com/aarogyaojha/sentiment-analysis)
+1. Fork — [github.com/aarogyaojha/sentiment_analysis](https://github.com/aarogyaojha/sentiment_analysis)
 2. Create a branch: `git checkout -b feature/your-feature-name`
 3. Commit your changes: `git commit -m "add: description of change"`
 4. Push and open a pull request
