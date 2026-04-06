@@ -274,6 +274,27 @@ Contributions are welcome. Please open an issue before starting large changes.
 
 ---
 
+## Cite this work
+
+If you use this code or findings in your research, please cite:
+
+```bibtex
+@misc{ojha2025crossdomain,
+  author       = {Ojha, Aarogya},
+  title        = {Cross-Domain Sentiment Analysis: {TF-IDF} vs {DistilBERT}},
+  year         = {2025},
+  howpublished = {\url{https://github.com/aarogyaojha/sentiment_analysis}},
+  note         = {Compares a classical TF-IDF + Logistic Regression pipeline against
+                  fine-tuned DistilBERT on binary sentiment classification,
+                  trained on Sentiment140 (Twitter) and evaluated cross-domain
+                  on IMDB movie reviews without retraining.}
+}
+```
+
+A machine-readable copy is also available in [`CITING.bib`](CITING.bib).
+
+---
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for full text.
