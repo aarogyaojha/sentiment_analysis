@@ -11,7 +11,7 @@ For small fixes (typos, doc improvements, bug fixes) just open a PR directly.
 ## Setup
 
 ```bash
-git clone https://github.com/aarogyaojha/sentiment_analysis.git
+git clone https://github.com/[USERNAME]/sentiment_analysis.git
 cd sentiment_analysis
 
 conda create -n sentiment_analysis python=3.10
@@ -71,4 +71,4 @@ These are well-scoped tasks that don't require deep knowledge of the full codeba
 
 ## Questions
 
-Open an issue or reach out via GitHub: [github.com/aarogyaojha](https://github.com/aarogyaojha)
+Open an issue or reach out via GitHub: [github.com/[USERNAME]](https://github.com/[USERNAME])

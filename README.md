@@ -1,9 +1,9 @@
 # Cross-Domain Sentiment Analysis: TF-IDF vs DistilBERT
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aarogyaojha/sentiment_analysis/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/[USERNAME]/sentiment_analysis/blob/main/LICENSE)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
-[![GitHub](https://img.shields.io/badge/GitHub-aarogyaojha-black?logo=github)](https://github.com/aarogyaojha/sentiment_analysis)
+[![GitHub](https://img.shields.io/badge/GitHub-[USERNAME]-black?logo=github)](https://github.com/[USERNAME]/sentiment_analysis)
 
 Comparing a classical TF-IDF + Logistic Regression pipeline against fine-tuned DistilBERT on binary sentiment classification — trained on Twitter (Sentiment140) and evaluated both in-domain and out-of-domain on IMDB movie reviews without any retraining.
 
@@ -273,7 +273,7 @@ To switch to dev mode for fast iteration:
 
 Contributions are welcome. Please open an issue before starting large changes.
 
-1. Fork — [github.com/aarogyaojha/sentiment_analysis](https://github.com/aarogyaojha/sentiment_analysis)
+1. Fork — [github.com/[USERNAME]/sentiment_analysis](https://github.com/[USERNAME]/sentiment_analysis)
 2. Create a branch: `git checkout -b feature/your-feature-name`
 3. Commit your changes: `git commit -m "add: description of change"`
 4. Push and open a pull request
@@ -293,11 +293,11 @@ Contributions are welcome. Please open an issue before starting large changes.
 If you use this code or findings in your research, please cite:
 
 ```bibtex
-@misc{ojha2025crossdomain,
-  author       = {Ojha, Aarogya},
+@misc{[CITATION_KEY],
+  author       = {[AUTHOR]},
   title        = {Cross-Domain Sentiment Analysis: {TF-IDF} vs {DistilBERT}},
   year         = {2025},
-  howpublished = {\url{https://github.com/aarogyaojha/sentiment_analysis}},
+  howpublished = {\url{https://github.com/[USERNAME]/sentiment_analysis}},
   note         = {Compares a classical TF-IDF + Logistic Regression pipeline against
                   fine-tuned DistilBERT on binary sentiment classification,
                   trained on Sentiment140 (Twitter) and evaluated cross-domain
@@ -305,12 +305,12 @@ If you use this code or findings in your research, please cite:
 }
 ```
 
-A machine-readable copy is also available in [`CITING.bib`](https://github.com/aarogyaojha/sentiment_analysis/blob/main/CITING.bib).
+A machine-readable copy is also available in [`CITING.bib`](https://github.com/[USERNAME]/sentiment_analysis/blob/main/CITING.bib).
 
 ---
 
 ## License
 
-MIT License — see [LICENSE](https://github.com/aarogyaojha/sentiment_analysis/blob/main/LICENSE) for full text.
+MIT License — see [LICENSE](https://github.com/[USERNAME]/sentiment_analysis/blob/main/LICENSE) for full text.
 
-Copyright (c) 2025 Aarogya Ojha
+Copyright (c) 2025 [AUTHOR]
