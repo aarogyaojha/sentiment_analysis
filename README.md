@@ -114,7 +114,7 @@ DistilBERT training on CPU is slow. If you only need the TF-IDF pipeline, run th
 @misc{anonymous2025crossdomain,
   title        = {Does Bigger Mean Better Everywhere? Cross-Domain Sentiment Analysis with TF-IDF and DistilBERT},
   year         = {2025},
-  howpublished = {\url{https://anonymous.4open.science/r/sentiment_analysis-6826/README.md}},
+  howpublished = {\url{https://anonymous.4open.science/r/sentiment_analysis-DBC8}},
   note         = {Cross-domain sentiment analysis with TF-IDF + Logistic Regression and fine-tuned DistilBERT.}
 }
 ```
