@@ -57,14 +57,10 @@ Full dataset: 1.6M Sentiment140 tweets, 160K DistilBERT training examples, and 2
 sentiment_analysis/
 ├── notebooks/
 │   └── sentiment_analysis.ipynb
-├── src/
-│   ├── preprocess.py
-│   └── evaluate.py
-├── outputs/
-│   ├── figures/
-│   └── results/
 ├── requirements.txt
-└── CITING.bib
+├── CITING.bib
+├── Contributing.md
+└── LICENSE
 ```
 
 ---
